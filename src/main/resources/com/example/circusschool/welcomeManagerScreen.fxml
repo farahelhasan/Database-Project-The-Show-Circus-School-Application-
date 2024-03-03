@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="886.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.WelcomeManagerScreen">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="890.0" styleClass="root" stylesheets="@../../../images/WelcomeManagerScreen.css">
+         <children>
+            <Button fx:id="CoursesButton" layoutX="490.0" layoutY="221.0" mnemonicParsing="false" onAction="#CoursesButtonClick" opacity="0.0" prefHeight="64.0" prefWidth="265.0" />
+            <Label fx:id="UsernameLable" alignment="CENTER_RIGHT" layoutX="462.0" layoutY="15.0" prefHeight="34.0" prefWidth="366.0" textFill="#ef864e">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Button fx:id="EquipmentButton" layoutX="490.0" layoutY="348.0" mnemonicParsing="false" onAction="#EquipmentButtonClick" opacity="0.0" prefHeight="64.0" prefWidth="265.0" />
+            <Button fx:id="StudentButton" layoutX="137.0" layoutY="348.0" mnemonicParsing="false" onAction="#StudentButtonClick" opacity="0.0" prefHeight="64.0" prefWidth="265.0" />
+            <Button fx:id="TrainersButton" layoutX="137.0" layoutY="221.0" mnemonicParsing="false" onAction="#TrainersButtonClick" opacity="0.0" prefHeight="64.0" prefWidth="265.0" />
+            <Button fx:id="LogoutButton" layoutX="18.0" layoutY="445.0" mnemonicParsing="false" onAction="#LogoutButtonClick" opacity="0.37" prefHeight="26.0" prefWidth="96.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

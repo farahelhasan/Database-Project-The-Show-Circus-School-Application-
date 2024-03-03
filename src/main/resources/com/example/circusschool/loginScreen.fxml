@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="890.0" styleClass="root" stylesheets="@../../../images/LoginScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.LoginScreen">
+   <children>
+      <TextField fx:id="emailText" layoutX="590.0" layoutY="155.0" prefHeight="28.0" prefWidth="280.0" />
+      <PasswordField fx:id="passwordText" layoutX="590.0" layoutY="223.0" prefHeight="26.0" prefWidth="280.0" />
+      <Button fx:id="LoginButton" layoutX="608.0" layoutY="299.0" mnemonicParsing="false" onAction="#loginButtonClick" opacity="0.32" prefHeight="34.0" prefWidth="82.0" />
+      <Button fx:id="Back" layoutX="615.0" layoutY="449.0" mnemonicParsing="false" onAction="#BackClick" opacity="0.29" prefHeight="28.0" prefWidth="67.0" />
+      <Button fx:id="ForgitPasswordButton" layoutX="568.0" layoutY="333.0" mnemonicParsing="false" onAction="#ForgitPasswordButtonClick" opacity="0.25" prefHeight="18.0" prefWidth="162.0" />
+      <Label fx:id="MassageForWrongPassword" alignment="CENTER" layoutX="615.0" layoutY="257.0" prefHeight="18.0" prefWidth="194.0" text="the password you intered is wrong" visible="false" />
+      <Label fx:id="MassageForWrongEmailandPassword" alignment="CENTER" layoutX="524.0" layoutY="280.0" prefHeight="18.0" prefWidth="250.0" />
+   </children>
+</AnchorPane>

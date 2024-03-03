@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="890.0" stylesheets="@../../../Images/disStudentCourses.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.DisStudentCourses">
+   <children>
+      <Button fx:id="SHome" layoutX="34.0" layoutY="456.0" mnemonicParsing="false" onAction="#gotoStudentPage" opacity="0.0" prefHeight="36.0" prefWidth="102.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Remove" layoutX="376.0" layoutY="411.0" mnemonicParsing="false" onAction="#RemoveCourse" opacity="0.0" prefHeight="44.0" prefWidth="144.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="studentEM" alignment="CENTER_RIGHT" layoutX="571.0" layoutY="18.0" prefHeight="26.0" prefWidth="264.0" textAlignment="CENTER" textFill="#eb7019" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="104.0" layoutY="155.0" prefHeight="214.0" prefWidth="634.0">
+        <columns>
+            <TableColumn fx:id="CourseNumber" prefWidth="95.33334350585938" text="C#" />
+            <TableColumn fx:id="CourseName" prefWidth="90.6666259765625" text="Name" />
+            <TableColumn fx:id="CourseCost" prefWidth="90.44442749023438" text="Cost" />
+            <TableColumn fx:id="CourseType" prefWidth="113.55560302734375" text="Type" />
+            <TableColumn fx:id="GenderofCourse" prefWidth="116.4444580078125" text="Gender" />
+            <TableColumn fx:id="TimeInterval" prefWidth="126.66668701171875" text="Time Interval" />
+        </columns>
+      </TableView>
+      <Button fx:id="refresh" layoutX="611.0" layoutY="60.0" mnemonicParsing="false" onAction="#refreshPage" opacity="0.0" prefHeight="25.0" prefWidth="29.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="RemoveStatus" layoutX="335.0" layoutY="391.0" prefHeight="17.0" prefWidth="243.0" />
+   </children>
+</AnchorPane>

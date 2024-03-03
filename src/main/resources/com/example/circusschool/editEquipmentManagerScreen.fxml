@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="448.0" prefWidth="414.0" styleClass="root" stylesheets="@../../../images/EditEquipmentManagerScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.EditEquipmentManagerScreen">
+   <children>
+      <TextField fx:id="ENameText" layoutX="227.0" layoutY="148.0" />
+      <TextField fx:id="ECountText" layoutX="227.0" layoutY="224.0" />
+      <Button fx:id="SaveButton" layoutX="181.0" layoutY="308.0" mnemonicParsing="false" onAction="#SaveButtonClick" opacity="0.18" prefHeight="26.0" prefWidth="67.0" />
+      <ComboBox fx:id="ETypeBox" layoutX="226.0" layoutY="187.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

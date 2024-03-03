@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="440.0" stylesheets="@../../../images/AddCourseManagerScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.AddCourseManagerScreen">
+   <children>
+      <TextField fx:id="NameText" layoutX="219.0" layoutY="129.0" prefHeight="26.0" prefWidth="142.0" />
+      <TextField fx:id="NumberText" layoutX="220.0" layoutY="95.0" prefHeight="17.0" prefWidth="142.0" />
+      <TextField fx:id="MaxNumTEXT" layoutX="219.0" layoutY="209.0" prefHeight="26.0" prefWidth="142.0" />
+      <TextField fx:id="TimeText" layoutX="220.0" layoutY="256.0" prefHeight="26.0" prefWidth="142.0" />
+      <TextField fx:id="CostText" layoutX="222.0" layoutY="295.0" prefHeight="26.0" prefWidth="142.0" />
+      <Button fx:id="SaveButton" layoutX="207.0" layoutY="459.0" mnemonicParsing="false" onAction="#SaveButtonClick" opacity="0.18" prefHeight="26.0" prefWidth="67.0" />
+      <ComboBox fx:id="EquipmentBox" layoutX="223.0" layoutY="373.0" prefHeight="26.0" prefWidth="142.0" />
+      <ComboBox fx:id="TrainerBox" layoutX="222.0" layoutY="408.0" prefHeight="26.0" prefWidth="142.0" />
+      <ComboBox fx:id="TypeBox" layoutX="220.0" layoutY="167.0" prefHeight="26.0" prefWidth="142.0" />
+      <ComboBox fx:id="ForBox" layoutX="223.0" layoutY="334.0" prefHeight="26.0" prefWidth="142.0" />
+   </children>
+</AnchorPane>

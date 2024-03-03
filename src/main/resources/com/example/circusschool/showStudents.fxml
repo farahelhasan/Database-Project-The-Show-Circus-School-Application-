@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="410.0" prefWidth="671.0" styleClass="root" stylesheets="@../../../Images/showStudents.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.ShowStudents">
+   <children>
+      <TableView fx:id="table" layoutX="41.0" layoutY="148.0" prefHeight="222.0" prefWidth="473.0">
+        <columns>
+          <TableColumn fx:id="NameColumn" prefWidth="87.33334541320801" text="FirstName" />
+            <TableColumn fx:id="LastNameColumn" prefWidth="100.0000228881836" text="LastName" />
+          <TableColumn fx:id="EmailColumn" prefWidth="197.5999755859375" text="Email" />
+            <TableColumn fx:id="PhoneColumn" prefWidth="86.39998779296877" text="Phone" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

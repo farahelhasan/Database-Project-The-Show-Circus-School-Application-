@@ -1,0 +1,4 @@
+.root{
+    -fx-background-image:url('WelcomeManagerScreen.png') ;
+    -fx-background-size:cover;
+}

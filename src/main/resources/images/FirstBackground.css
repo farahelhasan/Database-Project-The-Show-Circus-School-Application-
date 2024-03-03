@@ -1,0 +1,4 @@
+.root{
+    -fx-background-image:url('FirstBackground.gif') ;
+    -fx-background-size:cover;
+}

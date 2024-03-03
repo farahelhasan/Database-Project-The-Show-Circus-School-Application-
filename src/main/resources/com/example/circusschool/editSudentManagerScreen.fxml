@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="448.0" prefWidth="414.0" stylesheets="@../../../images/EditSudentManagerScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.EditSudentManagerScreen">
+   <children>
+      <TextField fx:id="addressText" layoutX="159.0" layoutY="259.0" prefHeight="26.0" prefWidth="159.0" />
+      <TextField fx:id="lastNameText" layoutX="159.0" layoutY="175.0" prefHeight="26.0" prefWidth="159.0" />
+      <TextField fx:id="firstNameText" layoutX="159.0" layoutY="138.0" prefHeight="26.0" prefWidth="159.0" />
+      <RadioButton fx:id="boyRadiobutton" layoutX="151.0" layoutY="226.0" mnemonicParsing="false" />
+      <RadioButton fx:id="girlRadiobutton" layoutX="288.0" layoutY="226.0" mnemonicParsing="false" />
+      <TextField fx:id="phoneText" layoutX="159.0" layoutY="299.0" prefHeight="26.0" prefWidth="159.0" />
+      <Button fx:id="SaveButton" layoutX="180.0" layoutY="357.0" mnemonicParsing="false" onAction="#SaveButtonClick" opacity="0.18" prefHeight="26.0" prefWidth="67.0" />
+   </children>
+</AnchorPane>

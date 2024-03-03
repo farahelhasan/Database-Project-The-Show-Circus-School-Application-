@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="890.0" stylesheets="@../../../images/SingupAsTrainerScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.circusschool.SignupTrainerScreen">
+   <children>
+      <TextField fx:id="SSNText" layoutX="322.0" layoutY="75.0" prefHeight="26.0" prefWidth="185.0" />
+      <TextField fx:id="FirstNameText" layoutX="322.0" layoutY="123.0" prefHeight="26.0" prefWidth="185.0" text="First Name" />
+      <TextField fx:id="LastNameText" layoutX="535.0" layoutY="123.0" prefHeight="26.0" prefWidth="185.0" text="Last Name" />
+      <TextField fx:id="HomeAddressText" layoutX="322.0" layoutY="171.0" prefHeight="26.0" prefWidth="185.0" text="Home Address" />
+      <TextField fx:id="WorkAddressText" layoutX="535.0" layoutY="171.0" prefHeight="26.0" prefWidth="185.0" text="Work Address" />
+      <TextField fx:id="EmailText" layoutX="322.0" layoutY="259.0" prefHeight="26.0" prefWidth="310.0" />
+      <TextField fx:id="BankAccountNumText" layoutX="322.0" layoutY="299.0" prefHeight="26.0" prefWidth="185.0" />
+      <TextField fx:id="PhoneNumText" layoutX="322.0" layoutY="339.0" prefHeight="26.0" prefWidth="185.0" />
+      <PasswordField fx:id="PasswordText" layoutX="322.0" layoutY="376.0" prefHeight="26.0" prefWidth="186.0" />
+      <Button fx:id="SubmitButton" layoutX="496.0" layoutY="448.0" mnemonicParsing="false" onAction="#SubmitButtonClick" opacity="0.44" prefHeight="37.0" prefWidth="122.0" />
+      <RadioButton fx:id="GirlRadioButton" layoutX="374.0" layoutY="214.0" mnemonicParsing="false" onAction="#GirlRadioButtonSelect" />
+      <RadioButton fx:id="BoyRadioButton" layoutX="590.0" layoutY="214.0" mnemonicParsing="false" onAction="#BoyRadioButtonSelect" />
+      <PasswordField fx:id="ConfirmPasswordText" layoutX="322.0" layoutY="416.0" prefHeight="26.0" prefWidth="186.0" />
+   </children>
+</AnchorPane>
